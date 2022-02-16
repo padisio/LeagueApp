@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.fichaListado{
+  background-color: #0c2e3d;
+  padding:20px;
+  color:white;
+  border-radius: 10px;
+}
+.listChampImage{
+  width: 100%;
+  max-width: 200px;
+}
+.listChampButton{
+  border:none;
+  background-color:#071c26;
+  padding:15px;
+  border-radius: 5px;
+  color:white;
+  margin-top:20px;
+  position: relative;
+  bottom:100%;
+}
+.listChampButton:hover{
+  background-color:rgb(57, 119, 146);
+  color:rgb(22, 22, 22)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ListChampionTagsCont{
+  width: 100%;
+  max-width: 200px;
+ 
+}
+.ListChampionTagsCont li {
+  display: inline;
+  margin-top: 10px;
+  color:white;
+  background-color: #071c26;
+}
+
+.easyClass{
+  border: 7px solid green;
+}
+
+.mediumClass{
+  
+  border: 7px solid orange;
+}
+.hardClass{
+  border: 7px solid red;
+}
+body{
+  background-color: #071c26;
+  color: white;
+}
+.splashCard{
+  width: 100%;
+}
+.loreArea{
+  background-color: #0c2e3d;
+  padding: 20px;
+}
+.iconoChamp{
+  width: 100%;
+  max-width: 80px;
+}
+.champCardTag{
+  padding:10px;
+  background-color:#0c2e3d;
+  position: relative;
+  top:38px
+}
+.logo{
+  width: 100%;
+  max-width: 60px;
+}
+.skinImage{
+  width: 100%;
+  max-width: 300px;
+}
+.captionSkin{
+  /* background-color: #0d3344; */
+  background-color:rgba(29, 29, 29, 0.3);
+  /* position:relative; */
+  padding:5px;
+  height: 35px;
+  width: 350px;
+  margin: 0 auto;
+
+}
+.vacio{
+  display: inline;
+  margin-right: 3px;
+  height: 20px;
+  border: 1px solid rgb(100, 100, 100);
+}
+.lleno{
+  display: inline;
+  margin-right: 3px;
+  height: 20px;
+  background-color: green;
+  border: 1px solid rgb(100, 100, 100);
+}
+.statsCont{
+  background-color: #0c2e3d;
+  padding:10px;
+}
+.skillIcon{
+  width: 100%;
+  max-width: 100px;
+}
+.skillCont{
+  background-color: #0c2e3d;
+  padding: 10px 20px ;
+  /* margin-bottom: 20px; */
+}
+.fichaHabilidades{
+  padding:0;
+  margin:0;
+  position: relative;
+  right: 12px;
 }
